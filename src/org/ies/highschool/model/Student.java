@@ -12,6 +12,9 @@ public class Student {
         this.surname = surname;
         this.address = address;
     }
+    public void showInfo(){
+        System.out.println("Nombre:" +  name + " | " + "Apellido: " + surname + " | " + "Dirección: " + address);
+    }
 
     public String getName() {
         return name;
